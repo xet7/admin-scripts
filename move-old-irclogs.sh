@@ -1,6 +1,6 @@
 #!/bin/bash
 # Move files older than 6 months to another directory
-# 2016-05-20 First version by Lauri Ojansivu <x@xet7.org>
+# 2016-05-20 First version by Lauri Ojansivu
 
 ## Cronjob for this command:
 ##Move old irclogs at first day of the month.

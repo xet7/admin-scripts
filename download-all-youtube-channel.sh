@@ -1,9 +1,11 @@
 #!/bin/bash
 
-# Clone all videos of one YouTube channel as MP4 videos.
+# Download all videos of one YouTube channel as MP4 videos.
+# License: MIT
 #
 # Actual oneliner from somewhere from Internet long time ago.
-# 2016-10-18 by Lauri Ojansivu: Added Bash logic. Modified to save as MP4.
+# 2017-02-12 by Lauri Ojansivu (xet7): Cleanup some text.
+# 2016-10-18 by Lauri Ojansivu (xet7): Added Bash logic. Modified to save as MP4.
 
 function downloadall {
 
@@ -12,8 +14,8 @@ function downloadall {
 }
 
 # SETTINGS:
-# $1 = Channel ID of YouTube channel
-# Example used: Download Talent Suomi 2016 360-videos.
-channelid=UCjolQH2-G2n1n1aI7Go5qKw
+# $1 = Channel ID of YouTube channel, looks like random letters and numbers
+#      Change below text YOUR-CHANNEL-ID-HERE to your Channel ID.
+channelid=YOUR-CHANNEL-ID-HERE
 
 downloadall "$channelid"

@@ -1,6 +1,7 @@
 #!/bin/bash
 # Move files older than 6 months to another directory
-# 2016-05-20 First version by Lauri Ojansivu
+# 2016-05-20 First version by Lauri Ojansivu (xet7)
+# Done for https://secretchronicles.org
 # License: MIT
 
 ## Cronjob for this command:

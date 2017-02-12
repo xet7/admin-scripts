@@ -1,5 +1,6 @@
 #!/bin/bash
 # 2017-02-11 by Lauri Ojansivu (xet7)
+# Done for https://vanila.io
 # License: MIT
 
 echo "1) Exporting Rocket.Chat username,name and email from MongoDB to users-temp.csv"

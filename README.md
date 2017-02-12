@@ -8,4 +8,4 @@
 3) download-all-youtube-channel.sh: Download all videos of YouTube channel
 
 4) export-rocketchat-username-name-email-to-csv.sh: Export all Rocket.Chat
-   users username, name and email address to CSV.
+   users username, name and email address from MongoDB to CSV.

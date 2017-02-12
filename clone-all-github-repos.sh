@@ -1,10 +1,12 @@
 #!/bin/bash
 
-# Clone all repos of GitHub account.
-# Both Organization accounts and User accounts supported.
+# Download all repos of GitHub account.
+# Both Organization accounts and User accounts are supported.
+# License: MIT
 #
 # Actual Python oneliner from somewhere from Internet long time ago.
-# 2016-10-18 by Lauri Ojansivu: Added Bash logic.
+# 2017-02-12 by Lauri Ojansivu (xet7): Clarified text. Updated example.
+# 2016-10-18 by Lauri Ojansivu (xet7): Added Bash logic.
 
 function cloneall {
 
@@ -16,8 +18,8 @@ function cloneall {
 # $1 = clonetype: clone (=https) or ssh (=ssh)
 clonetype=clone
 # $2 = orgs / users (as Organization or Username )
-usertype=users
+usertype=orgs
 # $3 = organization name or username
-username=xet7
+username=wekan
 
 cloneall "$clonetype" "$usertype" "$username"

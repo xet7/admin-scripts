@@ -1,11 +1,19 @@
 
 # Admin scripts
 
-1) move-old-irclogs.sh: Move files older than 6 months to another directory
+1) move-old-irclogs.sh:
 
-2) clone-all-github-repos.sh: Clone all GitHub repos of Organization or User
+* Move files older than 6 months to another directory
 
-3) download-all-youtube-channel.sh: Download all videos of YouTube channel
+2) clone-all-github-repos.sh:
 
-4) export-rocketchat-username-name-email-to-csv.sh: Export all Rocket.Chat
-   users username, name and email address from MongoDB to CSV.
+* Clone all GitHub repos of Organization or User
+
+3) download-all-youtube-channel.sh:
+
+* Download all videos of YouTube channel
+
+4) export-rocketchat-username-name-email-to-csv.sh:
+
+* Export all Rocket.Chat users username, name and email address
+  from MongoDB to CSV.

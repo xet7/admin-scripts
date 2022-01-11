@@ -10,7 +10,7 @@
 
 function cloneall {
 
-	python -c "import json, urllib, os; [os.system('git clone ' + r['$1_url']) for r in json.load(urllib.urlopen('https://api.github.com/$2/$3/repos?per_page=200'))]"
+	python2 -c "import json, urllib, os; [os.system('git clone ' + r['$1_url']) for r in json.load(urllib.urlopen('https://api.github.com/$2/$3/repos?per_page=200'))]"
 
 }
 
